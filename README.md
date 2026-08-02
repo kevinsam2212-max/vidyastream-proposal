@@ -1,4 +1,4 @@
-﻿# VidyaStream — Client Proposal Deck
+# VidyaStream — Client Proposal Deck
 
 Single-file HTML presentation (21 slides, 16:9).
 Fonts are embedded — no external dependencies, works offline.
