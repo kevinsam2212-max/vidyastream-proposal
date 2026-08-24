@@ -288,6 +288,13 @@ p{margin:0}
 .badge.proc{color:#1D1405;background:var(--amber)}
 .badge.drft{color:var(--tx2);background:rgba(255,255,255,.14)}
 
+/* price-provenance badges */
+.vb{display:inline-flex;font-size:.78cqw;letter-spacing:.12em;font-weight:800;padding:.18cqw .62cqw;
+  border-radius:4px;font-family:"Cascadia Mono",ui-monospace,monospace;vertical-align:middle;white-space:nowrap}
+.vb.ver{color:#0E1B14;background:var(--green)}
+.vb.est{color:#1D1405;background:var(--amber)}
+.vb.use{color:#160B21;background:var(--violet)}
+
 .upl{display:flex;align-items:center;gap:.85cqw;border:1px solid var(--line2);border-radius:9px;
   padding:.85cqw 1cqw;background:rgba(255,255,255,.025)}
 .upl .fico{width:2.2cqw;height:2.2cqw;border-radius:6px;flex:none;
@@ -852,9 +859,75 @@ p{margin:0}
   </div>
 </section>
 
+<!-- P0 DIVIDER PLATFORMS -->
+<section class="s mid" data-c="">
+  <div class="eye">Chapter three</div>
+  <h2 class="d1">The two <span class="grad">apps</span></h2>
+  <p class="lead" style="max-width:52cqw">What the Android app includes, what the iPhone app includes, where they differ, and what each platform genuinely requires.</p>
+</section>
+
+<!-- P1 ANDROID -->
+<section class="s" data-c="The Two Apps">
+  <div class="eye">The Android app: everything included</div>
+  <div class="fl gr g4" style="align-content:center">
+    <div class="c"><span class="kk">CONTENT</span><h3>Full library</h3><p>Videos, podcasts and PDFs. Search, categories, continue watching.</p></div>
+    <div class="c"><span class="kk">PLAYBACK</span><h3>Adaptive streaming</h3><p>Quality adjusts to the network. Full HD on Wi-Fi, light on 4G.</p></div>
+    <div class="c"><span class="kk">OFFLINE</span><h3>Download on Wi-Fi</h3><p>Encrypted on the device, plays with zero signal, syncs later.</p></div>
+    <div class="c"><span class="kk">PROOF</span><h3>Quizzes + certificates</h3><p>Pass marks, verifiable IDs, expiry reminders.</p></div>
+    <div class="c"><span class="kk">REACH</span><h3>Push notifications</h3><p>Assignments, deadlines and reminders, deep-linked to the video.</p></div>
+    <div class="c"><span class="kk">COURSES</span><h3>Ordered learning</h3><p>Locked module sequence with a certificate at the end.</p></div>
+    <div class="c"><span class="kk">DEVICES</span><h3>Wide support</h3><p>Runs on Android 8 and above, tested on budget phones, not just flagships.</p></div>
+    <div class="c hi"><span class="kk">STORE</span><h3>Play Store, your name</h3><p>Published under your company account. Registration US $25, once ever. <span class="vb ver">VERIFIED</span></p></div>
+  </div>
+</section>
+
+<!-- P2 IPHONE -->
+<section class="s" data-c="The Two Apps">
+  <div class="eye">The iPhone app: everything included</div>
+  <div class="fl gr g4" style="align-content:center">
+    <div class="c"><span class="kk">PARITY</span><h3>Every Android feature</h3><p>Same library, streaming, offline, quizzes, certificates, courses, notifications. Feature for feature.</p></div>
+    <div class="c"><span class="kk">NATIVE FEEL</span><h3>Built for iOS</h3><p>Follows Apple's design conventions, so it feels at home on an iPhone.</p></div>
+    <div class="c"><span class="kk">BETA</span><h3>TestFlight testing</h3><p>Your reviewers try pre-release builds through Apple's official beta channel.</p></div>
+    <div class="c"><span class="kk">DEVICES</span><h3>iPhone and iPad</h3><p>Runs on iOS 15 and above, covering nearly every iPhone in active use.</p></div>
+    <div class="c hi"><span class="kk">STORE</span><h3>App Store, your name</h3><p>Apple Developer Program: US $99 per year. <span class="vb ver">VERIFIED</span></p></div>
+    <div class="c hi"><span class="kk">BUILD INFRA</span><h3>Mac machines, our side</h3><p>Apple allows iOS builds only from a Mac. We run managed cloud Mac machines for this. You never need to buy one.</p></div>
+    <div class="c"><span class="kk">REVIEW</span><h3>Apple review handled</h3><p>Stricter than Google. We prepare the review notes and handle rejection cycles.</p></div>
+    <div class="c"><span class="kk">WHY +₹50K</span><h3>Honest pricing</h3><p>Mac build infrastructure and the heavier review cycle are real costs. They are priced in, not hidden.</p></div>
+  </div>
+</section>
+
+<!-- P3 DIFFERENCES -->
+<section class="s" data-c="The Two Apps">
+  <div class="eye">Android vs iPhone: an honest comparison</div>
+  <h2 class="d3">Same features. <span class="grad">Different plumbing.</span></h2>
+  <div class="fl cen">
+    <table class="t">
+      <tr><th></th><th>Android</th><th>iPhone</th></tr>
+      <tr><td><b>Features your people see</b></td><td>Identical</td><td>Identical</td></tr>
+      <tr><td><b>Store fee</b> <span class="vb ver">VERIFIED</span></td><td>US $25, one time (≈ ₹2,400)</td><td>US $99, every year (≈ ₹9,500)</td></tr>
+      <tr><td><b>Review before going live</b></td><td>Usually hours to 2 days</td><td>Usually 1 to 3 days, stricter checks</td></tr>
+      <tr><td><b>Build machines</b></td><td>Any computer</td><td>Mac only, an Apple rule. We handle it in the cloud</td></tr>
+      <tr><td><b>Our development price</b></td><td><b style="color:var(--green)">₹6,50,000</b></td><td><b style="color:var(--green)">₹7,00,000</b></td></tr>
+    </table>
+  </div>
+  <p class="p">The ₹50,000 difference is the Mac build infrastructure and Apple's heavier review process. Nothing else differs.</p>
+</section>
+
+<!-- P4 REQUIREMENTS -->
+<section class="s" data-c="The Two Apps">
+  <div class="eye">Requirements and limitations, stated upfront</div>
+  <div class="fl gr g2" style="align-content:center;gap:1.6cqw">
+    <div class="c"><span class="kk">APPLE RULE</span><h3>iOS builds need a Mac</h3><p>Xcode, Apple's build tool, runs only on macOS. We solve this with managed cloud Mac machines (verified rates, from about $0.095 per build minute). Included in the iPhone price.</p></div>
+    <div class="c"><span class="kk">APPLE RULE</span><h3>Company account needs D-U-N-S</h3><p>Apple requires a D-U-N-S business number for a company account. It is free, we help you apply, but allow 1 to 2 weeks. We start this in onboarding week so it never blocks launch.</p></div>
+    <div class="c"><span class="kk">BOTH STORES</span><h3>Yearly OS compliance</h3><p>Google and Apple raise minimum requirements every year. Apps that miss the deadline get delisted. Covered under the AMC, never skipped.</p></div>
+    <div class="c"><span class="kk">CONTENT</span><h3>Internet for first fetch</h3><p>Streaming apps need connectivity to fetch new content. After that, downloaded videos play fully offline.</p></div>
+  </div>
+  <p class="p">Nothing here blocks the project. Each item is either already priced in or handled during onboarding.</p>
+</section>
+
 <!-- 17 DIVIDER PROCESS -->
 <section class="s a-proc mid" data-c="">
-  <div class="eye">Chapter three</div>
+  <div class="eye">Chapter four</div>
   <h2 class="d1">Working <span class="grad">together</span></h2>
   <p class="lead" style="max-width:50cqw">What happens the week you say yes, how approvals work, what we need from you, and how we stay in touch.</p>
 </section>
@@ -957,7 +1030,7 @@ p{margin:0}
 
 <!-- 23 DIVIDER MONEY -->
 <section class="s a-money mid" data-c="">
-  <div class="eye">Chapter four</div>
+  <div class="eye">Chapter five</div>
   <h2 class="d1">The <span class="grad">investment</span></h2>
   <p class="lead" style="max-width:50cqw">What each piece is worth, what the packages cost, what is optional, and how payment works.</p>
 </section>
@@ -969,12 +1042,12 @@ p{margin:0}
     <table class="t">
       <tr><th>Component</th><th>What it is</th><th class="n">Standalone value</th></tr>
       <tr><td><b>Android app</b></td><td>Built, tested, live on the Play Store</td><td class="n">₹3,00,000</td></tr>
-      <tr><td><b>iPhone app</b></td><td>Built, tested, live on the App Store</td><td class="n">₹3,00,000</td></tr>
+      <tr><td><b>iPhone app</b></td><td>Built, tested, live on the App Store. Costs more: Apple requires Mac build machines, and its review is stricter</td><td class="n">₹3,50,000</td></tr>
       <tr><td><b>CMS</b></td><td>Upload, edit, organise, assign</td><td class="n">₹2,50,000</td></tr>
       <tr><td><b>Dashboard &amp; MIS</b></td><td>Live reports, manager views, auto emails</td><td class="n">₹1,50,000</td></tr>
       <tr><td><b>Backend + server setup</b></td><td>Cloud accounts, video pipeline, security</td><td class="n">₹1,50,000</td></tr>
       <tr><td><b>QA + stores + training</b></td><td>Device testing, both listings, handover</td><td class="n">₹1,00,000</td></tr>
-      <tr class="sum"><td>Bought separately</td><td></td><td class="n">₹12,50,000</td></tr>
+      <tr class="sum"><td>Bought separately</td><td></td><td class="n">₹13,00,000</td></tr>
     </table>
     <div class="stk">
       <div class="c hi"><h3>Why packages cost less</h3><p>The CMS, dashboard and backend are <b>built once</b>. Both apps share them. A package prices that shared work once, not twice.</p></div>
@@ -998,14 +1071,14 @@ p{margin:0}
         <li>Full CMS + dashboard + backend</li>
         <li>Servers set up in your name</li>
         <li>QA, training, 90-day support</li>
-        <li class="x">iPhone later: +₹5,00,000</li>
+        <li class="x">iPhone later: +₹5,50,000</li>
       </ul>
     </div>
     <div class="pk pick">
-      <span class="flag">COMBO · SAVE ₹1,60,000</span>
+      <span class="flag">COMBO · SAVE ₹2,00,000</span>
       <h3 style="font-size:1.85cqw" class="grad">Android + iPhone</h3>
       <div style="display:flex;align-items:baseline;gap:1cqw">
-        <div class="amt" style="color:var(--green)">₹10,90,000</div><span class="strike">₹12,50,000</span>
+        <div class="amt" style="color:var(--green)">₹11,50,000</div><span class="strike">₹13,50,000</span>
       </div>
       <p class="tiny">13-14 weeks · both stores, one launch</p>
       <ul>
@@ -1019,19 +1092,19 @@ p{margin:0}
     <div class="pk">
       <h3 style="font-size:1.85cqw">iPhone package</h3>
       <div style="display:flex;align-items:baseline;gap:1cqw">
-        <div class="amt">₹6,50,000</div><span class="strike">₹9,50,000</span>
+        <div class="amt">₹7,00,000</div><span class="strike">₹10,00,000</span>
       </div>
       <p class="tiny">10-11 weeks · App Store</p>
       <ul>
         <li>iPhone app, live on App Store</li>
         <li>Full CMS + dashboard + backend</li>
-        <li>Servers set up in your name</li>
+        <li>Mac build machines + Apple review handled</li>
         <li>QA, training, 90-day support</li>
         <li class="x">Android later: +₹5,00,000</li>
       </ul>
     </div>
   </div>
-  <p class="tiny">GST additional. Prices valid 60 days. One platform now plus the other later totals ₹11,50,000. The combo at ₹10,90,000 with one launch and one AMC remains the best route.</p>
+  <p class="tiny">GST additional. Prices valid 60 days. iPhone costs ₹50,000 more than Android because Apple requires Mac build infrastructure and a stricter review cycle. One platform now plus the other later totals ₹12,00,000. The combo at ₹11,50,000 with one launch and one AMC remains the best route.</p>
 </section>
 
 <!-- 26 ADDONS -->
@@ -1049,18 +1122,48 @@ p{margin:0}
   <p class="p">None of these are required at launch. Each can be added in a 2-4 week mini-project later.</p>
 </section>
 
+<!-- I1 INCLUDED -->
+<section class="s a-money" data-c="Investment">
+  <div class="eye">Inside the quoted price: all of this</div>
+  <div class="fl gr g4" style="align-content:center">
+    <div class="c hi"><h3>Both apps</h3><p>Designed, built, tested and live on both stores.</p></div>
+    <div class="c hi"><h3>CMS + dashboard</h3><p>The full back office and reporting panel.</p></div>
+    <div class="c hi"><h3>Backend + setup</h3><p>Cloud accounts, video pipeline and security, configured in your name.</p></div>
+    <div class="c hi"><h3>Mac build infra</h3><p>Apple-required build machines for the iPhone app, our cost.</p></div>
+    <div class="c hi"><h3>Store submissions</h3><p>Listings, screenshots, review handling and re-submissions.</p></div>
+    <div class="c hi"><h3>Device testing</h3><p>Real budget and flagship phones, both platforms.</p></div>
+    <div class="c hi"><h3>Team training</h3><p>Your admins trained on CMS and dashboard, with a handover guide.</p></div>
+    <div class="c hi"><h3>90-day support</h3><p>Anything broken after launch, fixed free for 90 days.</p></div>
+  </div>
+  <p class="p">If it is on this page, there is no extra bill for it. Ever.</p>
+</section>
+
+<!-- I2 NOT INCLUDED -->
+<section class="s a-money" data-c="Investment">
+  <div class="eye">Outside the quote: honest and upfront</div>
+  <div class="fl gr g3" style="align-content:center">
+    <div class="c"><span class="kk"><span class="vb use">USAGE-BASED</span></span><h3>Monthly server bills</h3><p>Streaming and hosting, paid by you directly to the providers. Scales with hours watched. Worked example in the next chapter.</p></div>
+    <div class="c"><span class="kk"><span class="vb ver">VERIFIED</span></span><h3>Store fees</h3><p>Google Play US $25 once. Apple Developer US $99 per year. Official prices, paid to Google and Apple.</p></div>
+    <div class="c"><span class="kk"><span class="vb use">CLIENT-SIDE</span></span><h3>Your content</h3><p>Filming, editing and translating the training videos themselves. You may already have an agency for this.</p></div>
+    <div class="c"><span class="kk"><span class="vb est">QUOTE-BASED</span></span><h3>DRM licences</h3><p>If copy protection is added, the DRM vendor charges a licence fee. Vendors quote per project; we get you the quote first.</p></div>
+    <div class="c"><span class="kk"><span class="vb use">USAGE-BASED</span></span><h3>SMS and email volume</h3><p>Login OTPs and email reports are billed per message by the provider. Typically small; depends on volume.</p></div>
+    <div class="c"><span class="kk"><span class="vb est">OPTIONAL</span></span><h3>Add-ons</h3><p>SSO, DRM, WhatsApp alerts, AI quizzes, languages. Fixed prices on the add-ons page, only if you want them.</p></div>
+  </div>
+  <p class="p">Rule we follow: a number is fixed only when we can verify it or control it. Everything else is labelled, never guessed.</p>
+</section>
+
 <!-- 27 PAYMENT -->
 <section class="s a-money" data-c="Investment">
   <div class="eye">Payment: industry standard, tied to your approvals</div>
   <div class="fl cen">
     <div class="flow">
-      <div class="stp"><div class="num">30%</div><h4>To start</h4><p>₹3,27,000 at onboarding. Work begins the same week.</p></div>
+      <div class="stp"><div class="num">30%</div><h4>To start</h4><p>₹3,45,000 at onboarding. Work begins the same week.</p></div>
       <div class="lnk"><svg><line x1="0" y1="1" x2="100%" y2="1"/></svg></div>
-      <div class="stp"><div class="num">25%</div><h4>Design approved</h4><p>₹2,72,500 after YOU sign off every screen.</p></div>
+      <div class="stp"><div class="num">25%</div><h4>Design approved</h4><p>₹2,87,500 after YOU sign off every screen.</p></div>
       <div class="lnk"><svg><line x1="0" y1="1" x2="100%" y2="1"/></svg></div>
-      <div class="stp"><div class="num">25%</div><h4>Demo approved</h4><p>₹2,72,500 after the working app is in your hands.</p></div>
+      <div class="stp"><div class="num">25%</div><h4>Demo approved</h4><p>₹2,87,500 after the working app is in your hands.</p></div>
       <div class="lnk"><svg><line x1="0" y1="1" x2="100%" y2="1"/></svg></div>
-      <div class="stp gate"><span class="gc">FINAL</span><h4>20% at launch</h4><p>₹2,18,000 when both apps are live and handed over.</p></div>
+      <div class="stp gate"><span class="gc">FINAL</span><h4>20% at launch</h4><p>₹2,30,000 when both apps are live and handed over.</p></div>
     </div>
   </div>
   <div class="gr g2" style="max-width:70cqw">
@@ -1069,9 +1172,26 @@ p{margin:0}
   </div>
 </section>
 
+<!-- A1 ASSUMPTIONS -->
+<section class="s a-money" data-c="Investment">
+  <div class="eye">Assumptions and sources: how these numbers were made</div>
+  <div class="fl" style="display:grid;grid-template-columns:1fr 1fr;gap:2cqw;align-items:start;padding-top:.4cqw">
+    <div class="stk">
+      <div class="c"><span class="kk">ASSUMED SCALE</span><p style="font-size:1.15cqw">500 videos averaging 20 minutes · 10,000 licensed users · usage examples at 3,000 to 7,000 monthly actives · India as the primary region.</p></div>
+      <div class="c"><span class="kk">CURRENCY</span><p style="font-size:1.15cqw">US dollar figures converted at about ₹95.75 (market rate, August 2026). Rupee equivalents of dollar fees move with the exchange rate.</p></div>
+      <div class="c"><span class="kk">TAX</span><p style="font-size:1.15cqw">All figures exclude GST. Store fees are charged by Google and Apple in US dollars.</p></div>
+    </div>
+    <div class="stk">
+      <div class="c hi"><span class="kk">VERIFIED THIS MONTH <span class="vb ver">SOURCE CHECKED</span></span><p style="font-size:1.15cqw">Apple Developer US $99/yr (developer.apple.com) · Google Play US $25 once (support.google.com) · Bunny video: storage from $0.01/GB, delivery from $0.005/GB, encoding free (bunny.net) · Cloud Mac builds from $0.095/min (codemagic.io).</p></div>
+      <div class="c"><span class="kk">ESTIMATES <span class="vb est">MODELLED</span></span><p style="font-size:1.15cqw">Monthly server totals are worked examples from published provider rates and the assumed watch time. Actual bills follow actual usage.</p></div>
+      <div class="c"><span class="kk">OUR QUOTE <span class="vb ver">FIXED</span></span><p style="font-size:1.15cqw">Development prices and AMC are our commitment: fixed for the stated scope, valid 60 days, changes only through written change requests.</p></div>
+    </div>
+  </div>
+</section>
+
 <!-- 28 DIVIDER RUN -->
 <section class="s a-run mid" data-c="">
-  <div class="eye">Chapter five</div>
+  <div class="eye">Chapter six</div>
   <h2 class="d1">Running <span class="grad">it</span></h2>
   <p class="lead" style="max-width:50cqw">Which servers, what they cost monthly, and how the platform stays healthy year after year.</p>
 </section>
@@ -1098,18 +1218,18 @@ p{margin:0}
 
 <!-- 30 MONTHLY BILL -->
 <section class="s a-run" data-c="Running It">
-  <div class="eye">The monthly server bill: 500 videos, 10,000 people</div>
+  <div class="eye">Monthly server cost: usage-based, shown here as a worked example</div>
   <div class="fl" style="display:grid;grid-template-columns:1.4fr 1fr;gap:2.6cqw;align-items:center">
     <table class="t">
-      <tr><th>Usage level</th><th class="n">Active users</th><th class="n">Hours each</th><th class="n">Per month</th></tr>
-      <tr><td><b>Quiet</b>, early months</td><td class="n">3,000</td><td class="n">2</td><td class="n">₹55,000</td></tr>
-      <tr><td><b>Normal</b>, programme running</td><td class="n">4,000</td><td class="n">4</td><td class="n"><b style="color:var(--orange)">₹64,400</b></td></tr>
-      <tr><td><b>Busy</b>, campaign month</td><td class="n">7,000</td><td class="n">8</td><td class="n">₹95,000</td></tr>
+      <tr><th>Usage level (example)</th><th class="n">Active users</th><th class="n">Hours each</th><th class="n">Est. per month</th></tr>
+      <tr><td><b>Quiet</b>, early months</td><td class="n">3,000</td><td class="n">2</td><td class="n">~₹55,000</td></tr>
+      <tr><td><b>Normal</b>, programme running</td><td class="n">4,000</td><td class="n">4</td><td class="n"><b style="color:var(--orange)">~₹64,000</b></td></tr>
+      <tr><td><b>Busy</b>, campaign month</td><td class="n">7,000</td><td class="n">8</td><td class="n">~₹95,000</td></tr>
     </table>
     <div class="stk">
-      <div class="c"><h3>You pay for hours watched</h3><p>Not for signups. 10,000 licensed users who watch nothing cost almost nothing that month.</p></div>
-      <div class="c"><h3>Small fixed fees</h3><p>Google Play ₹2,100 once. Apple ₹8,400 per year. Domain ₹1,200 per year.</p></div>
-      <p class="tiny">AWS Mumbai + Bunny published rates, August 2026, at ₹95.52 per dollar, before GST. Paid by you, directly to the providers.</p>
+      <div class="c"><h3>Not a fixed price, by design</h3><p>Providers bill per GB actually streamed. You pay for hours watched, not signups. 10,000 licensed users who watch nothing cost almost nothing that month.</p></div>
+      <div class="c hi"><h3>The verified fixed fees</h3><p>Google Play US $25 once (≈ ₹2,400). Apple Developer US $99 per year (≈ ₹9,500). Both from the official Google and Apple pages, checked this month.</p></div>
+      <p class="tiny">Estimates modelled on published Bunny and AWS Mumbai rates, August 2026, at about ₹95.75 per US dollar, before GST. Actual bills depend on real usage and are paid by you directly to the providers.</p>
     </div>
   </div>
 </section>
@@ -1165,23 +1285,23 @@ p{margin:0}
   <div class="eye">Everything, in three simple numbers</div>
   <div class="fl gr g3" style="align-content:center;gap:1.8cqw">
     <div class="c hi" style="padding:2.2cqw">
-      <span class="kk">ONE TIME</span>
-      <div class="fig sm"><b style="color:var(--green)">₹10.9L</b><span>Build, combo</span></div>
-      <p>Both apps, CMS, dashboard, servers set up, training. Paid in 4 milestones: 30 / 25 / 25 / 20.</p>
+      <span class="kk">ONE TIME · OUR QUOTE</span>
+      <div class="fig sm"><b style="color:var(--green)">₹11.5L</b><span>Build, combo</span></div>
+      <p>Both apps, CMS, dashboard, servers set up, training. Paid in 4 milestones: 30 / 25 / 25 / 20. Android alone ₹6.5L, iPhone alone ₹7L.</p>
     </div>
     <div class="c" style="padding:2.2cqw">
-      <span class="kk">MONTHLY</span>
-      <div class="fig sm"><b>₹64,400</b><span>Servers, normal use</span></div>
-      <p>Paid by you directly to AWS and Bunny. Scales with hours watched, not headcount.</p>
+      <span class="kk">MONTHLY · USAGE-BASED</span>
+      <div class="fig sm"><b>~₹64,000</b><span>Servers, example at normal use</span></div>
+      <p>Not fixed: providers bill per GB streamed. Paid by you directly to AWS and Bunny. Scales with hours watched, not headcount.</p>
     </div>
     <div class="c" style="padding:2.2cqw">
       <span class="kk">YEARLY</span>
-      <div class="fig sm"><b>₹2.09L</b><span>Care Plus + Apple fee</span></div>
-      <p>AMC ₹2,00,000 covering both apps, plus Apple's ₹8,400. First 90 days free.</p>
+      <div class="fig sm"><b>₹2.1L</b><span>Care Plus + Apple fee</span></div>
+      <p>AMC ₹2,00,000 covering both apps, plus Apple's US $99 (≈ ₹9,500). First 90 days free.</p>
     </div>
   </div>
   <div class="c" style="max-width:66cqw">
-    <p style="font-size:1.3cqw"><b>Per employee, that is about ₹230 a year at expected usage.</b> Ready-made platforms charge ₹400 to ₹1,200 per person per year, and you own nothing when you stop paying. Here, the apps, the data and the code are yours.</p>
+    <p style="font-size:1.3cqw"><b>Per employee, that is roughly ₹130 a year at the example usage level.</b> Published 2026 guides put ready-made platforms at ₹400 to ₹1,200 per person per year, and you own nothing when you stop paying. Here, the apps, the data and the code are yours.</p>
   </div>
 </section>
 
